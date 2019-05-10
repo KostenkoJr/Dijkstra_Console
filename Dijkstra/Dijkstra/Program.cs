@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Dijkstra_TPR
+namespace Dijkstra
 {
     class Program
     {
@@ -14,41 +12,20 @@ namespace Dijkstra_TPR
             {
                 int SIZE = 100;
                 Console.WriteLine("Для выбора какого либо пункта введите соответствующее число:");
-                Console.WriteLine("1. Ввести самостоятельно размерность матрицы");
+                Console.WriteLine("1. Ввесте самостоятельно размерность матрицы");
                 Console.WriteLine("2. Сформировать случайную матрицу размерности 5х5");
                 Console.WriteLine("3. Сформировать случайную матрицу размерности 10х10");
                 Console.WriteLine("4. Сформировать случайную матрицу размерности 20х20");
-                Console.WriteLine("5. Очистить экран");
-                Console.WriteLine("6. Выйти");
+                Console.WriteLine("5. Выйти");
                 Console.Write("Ваш выбор: ");
-                int selection = 1;
-                
-                try
-                {   selection = Convert.ToInt32(Console.ReadLine());
-                    
-                }
-                catch
-                {
-                    Console.WriteLine("Введите корректное число!");
-                    Console.ReadKey(true);
-                    continue;
-                }
+                int selection = Convert.ToInt32(Console.ReadLine());
+
                 int[,] arr = new int[SIZE, SIZE];
                 switch (selection)
                 {
                     case 1:
                         Console.Write("Ввести размерность матрицы (от 2 до 100): ");
-                        try
-                        {
-                            SIZE = Convert.ToInt32(Console.ReadLine());
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Введите корректное число!");
-                            Console.ReadKey(true);
-                            continue;
-                        }
-                        
+                        SIZE = Convert.ToInt32(Console.ReadLine());
 
                         Random rand = new Random();
                         for (int i = 0; i < SIZE; i++)
@@ -100,16 +77,10 @@ namespace Dijkstra_TPR
                         }
                         break;
                     case 5:
-                        Console.Clear();
-                        continue;
-                        break;
-                    case 6:
                         Environment.Exit(0);
                         break;
                     default:
                         Console.WriteLine("Сделайте корректный выбор!");
-                        Console.ReadKey(true);
-                        continue;
                         break;
                 }
 

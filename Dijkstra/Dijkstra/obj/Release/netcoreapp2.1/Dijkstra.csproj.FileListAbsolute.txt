@@ -1,0 +1,11 @@
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\bin\Release\netcoreapp2.1\Dijkstra.deps.json
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\bin\Release\netcoreapp2.1\Dijkstra.runtimeconfig.json
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\bin\Release\netcoreapp2.1\Dijkstra.runtimeconfig.dev.json
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\bin\Release\netcoreapp2.1\Dijkstra.dll
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\bin\Release\netcoreapp2.1\Dijkstra.pdb
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\obj\Release\netcoreapp2.1\Dijkstra.csprojAssemblyReference.cache
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\obj\Release\netcoreapp2.1\Dijkstra.csproj.CoreCompileInputs.cache
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\obj\Release\netcoreapp2.1\Dijkstra.AssemblyInfoInputs.cache
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\obj\Release\netcoreapp2.1\Dijkstra.AssemblyInfo.cs
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\obj\Release\netcoreapp2.1\Dijkstra.dll
+C:\Users\danil\source\repos\Dijkstra\Dijkstra\obj\Release\netcoreapp2.1\Dijkstra.pdb
